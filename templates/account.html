@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block page_content %}
+    <div class="jumbotron">
+        <h1 class="h1" align="right">Account Details</h1>
+        <h2 class="display-4">Hello, {{ first_name | upper }}!</h2>
+        <p class="lead">Welcome to E-Sample. We look forward to providing you with quality service for your medical
+            diagnosis.</p>
+        <hr class="my-4">
+        <p>Please check if we have all your personal details that we need to carry out tests.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">My details</a>
+    </div>
+{% endblock %}
